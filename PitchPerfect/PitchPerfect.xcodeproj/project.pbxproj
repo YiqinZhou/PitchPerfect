@@ -12,6 +12,7 @@
 		137779D91F02A99F009DCB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137779D71F02A99F009DCB9C /* Main.storyboard */; };
 		137779DB1F02A99F009DCB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137779DA1F02A99F009DCB9C /* Assets.xcassets */; };
 		137779DE1F02A99F009DCB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137779DC1F02A99F009DCB9C /* LaunchScreen.storyboard */; };
+		137779E71F02AD53009DCB9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137779E61F02AD53009DCB9C /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		137779DA1F02A99F009DCB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137779DD1F02A99F009DCB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137779DF1F02A99F009DCB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137779E61F02AD53009DCB9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137779E71F02AD53009DCB9C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				137779D21F02A99F009DCB9C /* PitchPerfect */,
 				137779D11F02A99F009DCB9C /* Products */,
+				137779E51F02AD53009DCB9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				137779DF1F02A99F009DCB9C /* Info.plist */,
 			);
 			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		137779E51F02AD53009DCB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137779E61F02AD53009DCB9C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
